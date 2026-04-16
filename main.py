@@ -7,8 +7,8 @@ with st.sidebar:
     st.subheader("Propiedades del tablero")
 
     st.subheader("Dimensiones del tablero")
-    canvas.width = st.slider("Ancho del tablero", 300, 700, 500, 50)
-    canvas.height: st.slider("Alto del tablero", 200, 600, 300, 50)
+    canvas_width = st.slider("Ancho del tablero", 300, 700, 500, 50)
+    canvas_height: st.slider("Alto del tablero", 200, 600, 300, 50)
 
     drawing_mode = st.selectbox(
         "Herramienta de dibujo:",
